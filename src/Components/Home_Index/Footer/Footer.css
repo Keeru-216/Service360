@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--main-bg-color);
+    padding: 20px;            /* Padding */
+    text-align: center;       /* Centered text */
+    font-size: 14px;          /* Font size */
+    color: #333;              /* Text color */
+    /* border-top: 1px solid #ccc;  */
+  }
+  

@@ -1,0 +1,10 @@
+  #webIndex_buttons{
+    background-color: #48cd51;
+    color: white;
+    border: none;
+    padding: 8px; /* Reduced padding */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+    border-radius: 10px; /* Rounded corners for a modern look */
+  }

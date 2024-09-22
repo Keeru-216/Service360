@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8; /* Light background for contrast */
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding around body */
+}
+
+.register-container {
+  background: linear-gradient(135deg, #a5c6c6,#fafafd); /* Gradient from light sky blue to light pink */
+  padding: 20px; /* Reduced padding for a more compact feel */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  width: 400px; /* Fixed width */
+  margin: auto; /* Center without margin on top */
+  color: #333; /* Dark text color for readability */
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px; /* Adjusted font size for emphasis */
+  margin-bottom: 10px; /* Space below the heading */
+  color: #333; /* Darker color for contrast */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold; /* Bold label text */
+  color: #333; /* Darker color for readability */
+}
+
+input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+input:focus {
+  border-color: #48cd51; /* Green border on focus */
+  outline: none; /* Remove outline */
+}
+
+.register-button {
+  width: 100%;
+  padding: 6px;
+  background-color: #48cd51;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

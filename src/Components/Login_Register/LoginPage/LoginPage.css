@@ -1,0 +1,35 @@
+.login-container {
+  max-width: 350px; /* Reduced maximum width */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Increased padding for a spacious feel */
+  background: linear-gradient(135deg, #a5c6c6, #fafafd); 
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Reduced space between fields */
+}
+
+.login-button {
+  background-color:  #00BCD4; 
+  color: white;
+  border: none;
+  padding: 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s;  
+}
+
+.login-button:hover {
+  background-color: #0097A7;  
+}
+
+.footer {
+  margin-top: 15px; }
