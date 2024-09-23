@@ -1,0 +1,31 @@
+/* src/Components/AdminNavBar.css */
+
+/* Navbar Styles */
+.admin-navbar {
+    background-color: var(--main-bg-color);
+    padding: 0; /* Remove padding to fit tightly */
+    border-bottom: 1px solid #ccc;  
+    margin: 0;
+  }
+  
+  .navbar-admin {
+    height: 40px; /* Reduced height for a slimmer navbar */
+    
+  }
+  
+  /* Align items in the navbar */
+  .navbar-nav-admin {
+    margin-left: 0; /* Align items to the left */
+  }
+  
+  /* Nav Link Styles */
+  .navbar-nav-admin .nav-link-admin {
+    color: black !important; /* Force text color to black */
+    padding: 4px 6px; /* Minimal padding for nav items */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .navbar-nav-admin .nav-link-admin:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a hover effect */
+  }
+  

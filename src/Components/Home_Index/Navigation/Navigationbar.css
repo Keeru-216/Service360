@@ -56,16 +56,7 @@ main {
   min-height: calc(100vh - 70px); /* Fill remaining height minus navbar height */
 }
 
-/* Footer Styles */
-.footer {
-  position: relative; /* Allow footer to be placed normally in the flow */
-  bottom: 0;
-  width: 100%; /* Full width for the footer */
-  background-color: #0d2f53; /* Match navbar color */
-  color: white; /* Text color */
-  text-align: center; /* Center footer text */
-  padding: 10px 0; /* Padding for footer */
-}
+
 
 /* Search Form */
 .search-form {
@@ -94,8 +85,8 @@ main {
 }
 
 /* Hide dropdown indicators for icon dropdowns */
-.nav-dropdown-toggle .icon-dropdown::after {
-  display: none; /* Hide the dropdown indicator */
+.icon-dropdown .dropdown-toggle::after {
+  display: none; /* Hides the dropdown indicator */
 }
 
 /* Icons Container */

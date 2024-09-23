@@ -8,6 +8,7 @@ import Boards from '../NavBarLabels/Boards';
 import Plans from '../NavBarLabels/Plans';
 import Assets from '../NavBarLabels/Assets';
 import AdminUserIcons from './AdminUserIcons';
+import AdminNavBar from '../../AdminNavBar/AdminNavBar';
 import './Navigationbar.css'; 
 
 const navLinks = [
@@ -39,7 +40,9 @@ const NavigationBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
+      <div style={{ padding: 0, margin: 0 }}> {/* Ensure no padding or margin */}
+        <AdminNavBar />
+      </div>
     </>
   );
 };
