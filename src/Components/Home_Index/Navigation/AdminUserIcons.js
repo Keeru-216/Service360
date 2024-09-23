@@ -45,7 +45,7 @@ const AdminUserIcons = () => {
       <NavDropdown
         title={<div className="icon-container"><i className="bi bi-sliders"></i></div>}
         id="admin-dropdown"
-        alignLeft
+        align="end"
         drop="down"
         className="p-0 icon-dropdown" // Added icon-dropdown class here
         menuAlign="right"
@@ -57,7 +57,7 @@ const AdminUserIcons = () => {
       <NavDropdown
         title={<div className="profile-icon"><i className="bi bi-person"></i></div>}
         id="user-dropdown"
-        alignLeft
+       align="end"
         drop="down"
         className="p-0 icon-dropdown" // Added icon-dropdown class here
         flip

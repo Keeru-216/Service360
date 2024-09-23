@@ -1,0 +1,41 @@
+/* src/Issues.css */
+
+.issues-container {
+    display: flex;
+    height: 100%; /* Full height */
+  }
+  
+  .issues-sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #f4f5f7; /* Light background */
+    padding: 15px; /* Padding for sidebar */
+    border-right: 1px solid #e1e4e8; /* Right border */
+  }
+  
+  .issues-sidebar h3 {
+    margin-bottom: 15px; /* Space below heading */
+  }
+  
+  .issue-item {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .issue-item:hover {
+    background-color: #e2e6ea; /* Light background on hover */
+  }
+  
+  .issue-item.active {
+    background-color: #007bff; /* Active item background */
+    color: white; /* Text color for active item */
+  }
+  
+  .issues-details {
+    padding: 20px; /* Padding for details */
+    flex-grow: 1; /* Take up remaining space */
+    background-color: #ffffff; /* White background for details */
+  }
+  

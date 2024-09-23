@@ -1,13 +1,30 @@
+// src/Components/NavigationBar.js
 import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import './AdminNavBar.css'; // Ensure you import the CSS file
 
-const AdminNavBar = () => {
+const AdminNavBar = ({ onSelect }) => {
   return (
-    <footer className="footer">
-     
-      <p>
-        © 2024, Service360 Management
-      </p>
-    </footer>
+    <>
+      <Navbar className="admin-navbar navbar-admin">
+        <Container fluid>
+          <Navbar.Toggle aria-controls="navbar-nav-admin" />
+          <Navbar.Collapse id="navbar-nav-admin">
+            <Nav className="navbar-nav-admin m-0"> {/* Apply the custom class and remove margins */}
+              <Nav.Link onClick={() => onSelect('applications')} className="nav-link-admin">
+                Applications
+              </Nav.Link>
+              <Nav.Link onClick={() => onSelect('projects')} className="nav-link-admin">
+                Projects
+              </Nav.Link>
+              <Nav.Link onClick={() => onSelect('issues')} className="nav-link-admin">
+                Issues
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   );
 };
 
