@@ -6,7 +6,7 @@ import './AdminNavBar.css'; // Ensure you import the CSS file
 const AdminNavBar = ({ onSelect }) => {
   return (
     <>
-      <Navbar className="admin-navbar navbar-admin">
+      <Navbar className="admin-navbar navbar-admin" fixed='top' >
         <Container fluid>
           <Navbar.Toggle aria-controls="navbar-nav-admin" />
           <Navbar.Collapse id="navbar-nav-admin">

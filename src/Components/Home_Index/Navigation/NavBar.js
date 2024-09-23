@@ -41,7 +41,7 @@ const NavigationBar = () => {
         </Container>
       </Navbar>
       <div style={{ padding: 0, margin: 0 }}> {/* Ensure no padding or margin */}
-        <AdminNavBar />
+        <AdminNavBar style={{ margin: 0, padding: 0 }} />
       </div>
     </>
   );
